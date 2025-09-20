@@ -2,6 +2,10 @@ use crate::{
     api::node::Node,
     bootstrap::{self, config::Config},
 };
+use crate::{
+    api::node::Node,
+    bootstrap::{self, config::Config},
+};
 use errors::AppError;
 use log::info;
 use migration::{Migrator, MigratorTrait};
